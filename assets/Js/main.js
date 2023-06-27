@@ -36,7 +36,7 @@ stockCampera1();
 
 
 function stockCampera2() {
-    let consultaTalles = prompt("Felicitaciones! Podes conocer un modelo exclusivo. Solo contamos con M, L Y XL. ¿Que talle sos?").toUpperCase();
+    let consultaTalles = prompt("Felicitaciones! Podes conocer un modelo exclusivo. Solo contamos con M, L Y XL. ¿Que talle sos").toUpperCase();
 
     if (consultaTalles === "XS" || consultaTalles === "S" || consultaTalles === "XXL") {
         alert("Proximamente estara disponible en ese talle.");
@@ -46,4 +46,4 @@ function stockCampera2() {
         alert("Talle inválido.");
     }
 }
-stockCampera2();    
+stockCampera2();
